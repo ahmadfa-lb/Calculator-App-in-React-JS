@@ -1,12 +1,14 @@
-import { useState } from 'react'
-import './App.css'
+// import { useState } from 'react'
+import Wrapper from './components/Wrapper'
 
 function App() {
   
 
   return (
     <div>
-      <h1>App</h1>
+      <Wrapper>
+        <h1>App</h1>
+      </Wrapper>
     </div>
   )
 }
