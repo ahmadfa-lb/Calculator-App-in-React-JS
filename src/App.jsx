@@ -15,16 +15,21 @@ const BtnValues = [
 
 function App() {
   return (
-    <CalcProvider>
-      <Wrapper>
-        <Screen />
-        <ButtonBox>
-          {BtnValues.flat().map((btn, i) => (
-            <Button value={btn} key={i} />
-          ))}
-        </ButtonBox>
-      </Wrapper>
-    </CalcProvider>
+    <>
+      <div className="h1">
+        <h1>Calculator App</h1>
+      </div>
+      <CalcProvider>
+        <Wrapper>
+          <Screen />
+          <ButtonBox>
+            {BtnValues.flat().map((btn, i) => (
+              <Button value={btn} key={i} />
+            ))}
+          </ButtonBox>
+        </Wrapper>
+      </CalcProvider>
+    </>
   );
 }
 
