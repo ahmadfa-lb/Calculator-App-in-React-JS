@@ -12,6 +12,7 @@ dist
 dist-ssr
 *.local
 
+# Ignore configuration files
 vite.config.js
 eslint.config.js
 
@@ -25,3 +26,5 @@ eslint.config.js
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

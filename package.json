@@ -13,7 +13,8 @@
     "calculator-app-in-react-js": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-textfit": "^1.1.1"
+    "react-responsive-text": "^1.0.1",
+    "react-textarea-autosize": "^8.5.4"
   },
   "devDependencies": {
     "@eslint/js": "^9.13.0",
