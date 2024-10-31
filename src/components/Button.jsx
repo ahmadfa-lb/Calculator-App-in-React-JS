@@ -4,10 +4,13 @@ import { CalcContext } from "../context/CalcContext";
 const getStyleName = (btn) => {
   const className = {
     "=": "equals",
-    X: "opt",
-    _: "opt",
+    "X": "opt",
+    "_": "opt",
     "+": "opt",
     "/": "opt",
+    "C" : "clear",
+    "+-": "opt2",
+    "%": "opt2" 
   };
   return className[btn];
 };

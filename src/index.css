@@ -16,7 +16,7 @@ body {
 }
 
 .wrapper {
-  background: #f6f8f9;
+  background: #42484b;
   width: 20rem;
   padding: 2rem;
   margin-top: 4rem;
@@ -28,7 +28,7 @@ body {
   font-size: 2px;
   height: rem;
   margin-bottom: 2rem;
-  background-color: #4bd086;
+  background-color: #C7C8CC;
   border-radius: 1rem;
 }
 
@@ -63,6 +63,14 @@ body {
 
 .opt {
   background: #f79505;
+}
+
+.opt2{
+  background: #C6E7FF;
+}
+
+.clear{
+  background: #FF0000;
 }
 
 .h1 {
